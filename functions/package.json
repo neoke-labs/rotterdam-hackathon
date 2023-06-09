@@ -1,0 +1,41 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md,json,html}\" .prettierrc --config ./.prettierrc",
+    "format": "npm run lint:fix && npm run prettier:fix"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@azure/msal-node": "^1.10.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "dotenv-expand": "^8.0.3",
+    "firebase-admin": "^10.1.0",
+    "firebase-functions": "^4.2.0",
+    "node-fetch": "^2.6.7",
+    "nodemailer": "^6.7.5",
+    "qrcode": "^1.5.0",
+    "sharp": "^0.32.1",
+    "uuid4": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}

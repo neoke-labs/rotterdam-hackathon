@@ -1,0 +1,244 @@
+body {
+  background-color: #fbfafd !important;
+}
+
+.ant-layout-header {
+  background: #fbfafd !important;
+}
+
+.ant-layout-header .right button {
+  border: 2px solid #430bab;
+}
+
+.ant-layout-header .right .ant-btn-default {
+  background: #fbfafd;
+}
+
+.ant-input[disabled] {
+  background-color: #fbfafd !important;
+}
+
+.ant-layout {
+  background-color: #fbfafd !important;
+}
+
+.ant-menu {
+  background-color: #fbfafd !important;
+}
+
+/* Modals */
+
+.ant-modal-content {
+  border: 1px solid #09090A !important;
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid #09090A !important;
+}
+
+.ant-modal-title {
+  color: #09090A !important;
+}
+
+.ant-modal-close-x {
+  color: #09090A;
+}
+
+.ant-modal-mask {
+  background-color: #09090AB2 !important;
+}
+
+
+.ant-modal-confirm h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #09090a;
+}
+
+.ant-modal-confirm h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #65656b;
+  margin-bottom: 28px;
+}
+
+.ant-modal-confirm-body .ant-modal-confirm-content {
+  margin-top: 0px;
+  color: #09090A;
+}
+
+.ant-modal-confirm .ant-btn-primary {
+  background: #418FDE;
+  border: 0px;
+}
+
+.ant-modal-confirm .ant-btn-default {
+  color: #418FDE !important;
+  border: 1px solid #418FDE !important;
+}
+
+/* Forms */
+
+.ant-form-item-label label {
+  color: #200b47 !important;
+}
+
+.ant-form-item-control-input-content input,
+.ant-form-item-control-input-content .ant-input-password,
+.ant-form-item-control-input-content .ant-select,
+.ant-form-item-control-input-content .ant-picker,
+.ant-form-item-control-input-content .ant-picker-range {
+  border: 1px solid #430bab33;
+}
+
+.ant-form-item-control-input-content .ant-checkbox + span {
+  color: #430bac !important;
+}
+
+.ant-checkbox-inner {
+  border: 1px solid #430bab33 !important;
+}
+
+/* Containers */
+
+.container h3 {
+  color: #430bac;
+}
+
+.container h4 {
+  color: #200b47;
+}
+
+/* Panels */
+
+.panel {
+  border: 1px solid rgba(67, 11, 171, 0.2);
+  background-color: white;
+  box-shadow: 0px 0px 48px 0 rgb(32 11 71 / 7%);
+}
+
+.container-table > .panel {
+  border: 1px solid rgba(32, 11, 71, 0.1);
+  background-color: #fff;
+}
+
+/* Tables */
+.container > .panel th {
+  background-color: white;
+}
+
+.container > .panel .ant-table-thead > tr > th {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+/* Home */
+.home-container h1 {
+  color: #200b47;
+}
+
+.home-container h2 {
+  color: #200b47;
+}
+
+/* Fields */
+.reservation-field-label {
+  font-family: "Inter";
+  color: #430bab;
+}
+
+.reservation-field-value {
+  font-family: "Inter";
+  color: #200b47;
+}
+
+.ant-collapse-header {
+  font-family: "Inter";
+  color: #430bab !important;
+}
+
+/* Dividers */
+
+.ant-divider-horizontal.ant-divider-with-text {
+  color: #200b47 !important;
+}
+
+.ant-divider-horizontal {
+  border-top-color: #200b47 !important;
+}
+
+/* Menus */
+.ant-menu-horizontal > .ant-menu-item a {
+  color: #200b47 !important;
+}
+
+/* Misc */
+.ant-btn-danger {
+  border-color: #ff424f !important;
+}
+
+.ant-btn-danger[disabled],
+.ant-btn-danger[disabled]:hover,
+.ant-btn-danger[disabled]:focus,
+.ant-btn-danger[disabled]:active {
+  border-color: #d9d9d9 !important;
+}
+
+.ant-picker-suffix,
+.ant-input-suffix,
+.ant-select-arrow,
+.ant-upload-list-item-card-actions .anticon,
+.ant-input-password-icon.anticon {
+  color: #430bab !important;
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::before {
+  display: none !important;
+}
+
+.ant-upload-list-item-name {
+  max-width: 20ch !important;
+}
+
+/* Check-in state */
+.check-in-state button {
+  border: 2px solid #430bab;
+}
+
+/* Website selector */
+.website-selector-container h1,
+.website-selector-container h2 {
+  color: #200b47;
+}
+
+/* Aruba verified traveller credential */
+.aruba-verified-traveller-credential-container h1,
+.aruba-verified-traveller-credential-container h2 {
+  color: #200b47;
+}
+
+.aruba-verified-traveller-credential-container .ant-picker-suffix {
+  color: #430bab;
+}
+
+.ant-result-success .ant-result-icon > .anticon {
+  color: #430bab !important;
+}
+
+.aruba-verified-traveller-credential-container .ant-result-title {
+  color: #002333;
+}
+
+.aruba-verified-traveller-credential-container .ant-result-subtitle {
+  color: #200b47;
+}

@@ -1,0 +1,275 @@
+body {
+  background-color: #fafdff !important;
+}
+
+.ant-layout-header {
+  background: #fafdff !important;
+}
+
+.ant-layout-header .right button {
+  border: 2px solid #00a4ef;
+}
+
+.ant-btn-default {
+  background: #fafdff;
+  color: #00a4ef !important;
+}
+
+.ant-input[disabled] {
+  background-color: #fafdff !important;
+}
+
+.ant-layout {
+  background: none !important;
+}
+
+.ant-menu {
+  background-color: #fafdff !important;
+}
+
+/* Modals */
+
+.ant-modal-content {
+  border: 1px solid #00a4ef33 !important;
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid #00a4ef33 !important;
+}
+
+.ant-modal-title {
+  color: black !important;
+}
+
+.ant-modal-close-x {
+  color: black;
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 10, 14, 0.7) !important;
+}
+
+.ant-modal-body h4 {
+  padding-top: 8px;
+  margin-bottom: 0px;
+}
+
+.reservation-modal .ant-modal-body h4,
+.auth-modal .ant-modal-body h4 {
+  padding-top: 0px;
+}
+
+.reservation-modal .ant-modal-body h3 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.reservation-modal .ant-modal-confirm-body,
+.auth-modal .ant-modal-confirm-body {
+  padding-bottom: 16px;
+}
+
+.reservation-modal .ant-modal-confirm-body button,
+.auth-modal .ant-modal-confirm-body button {
+  height: 40px;
+  font-weight: 600;
+  size: 16px;
+  line-height: 24px;
+}
+
+.ant-modal-body h4 > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4b6470;
+}
+
+.ant-modal-confirm-btns {
+  margin-top: 16px !important;
+}
+
+.ant-modal-confirm .ant-modal-body {
+  padding: 32px 32px 6px 32px !important;
+}
+
+/* Forms */
+
+.ant-form-item-label label {
+  color: #200b47 !important;
+}
+
+.ant-form-item-control-input-content input,
+.ant-form-item-control-input-content .ant-input-password,
+.ant-form-item-control-input-content .ant-select,
+.ant-form-item-control-input-content .ant-picker,
+.ant-form-item-control-input-content .ant-picker-range,
+.ant-form-item-control-input-content input[disabled],
+.ant-form-item-control-input-content .ant-input-password[disabled],
+.ant-form-item-control-input-content .ant-selec[disabled],
+.ant-form-item-control-input-content .ant-picker[disabled],
+.ant-form-item-control-input-content .ant-picker-range[disabled] {
+  border: 1px solid #d9d9d9;
+}
+
+.ant-form-item-control-input-content .ant-checkbox + span {
+  color: #200b47 !important;
+}
+
+.ant-checkbox-inner {
+  border: 1px solid #00a4ef33 !important;
+}
+
+/* Containers */
+
+.container h3 {
+  color: #00a4f0;
+}
+
+.container h4 {
+  color: black;
+}
+
+/* Panels */
+
+.panel {
+  background-color: white;
+  border: 1px solid rgba(1, 53, 77, 0.08);
+  box-shadow: 0 0 48px rgb(0 53 77 / 4%);
+}
+
+.container-table > .panel {
+  border: 1px solid rgba(1, 53, 77, 0.08);
+  box-shadow: 0 0 48px rgb(0 53 77 / 4%);
+  background-color: white;
+}
+
+.container-table h1 {
+  color: white;
+}
+
+.panel h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #002333;
+  margin-top: -3px;
+}
+
+/* Tables */
+.container > .panel th {
+  background-color: white;
+}
+
+.container > .panel .ant-table-thead > tr > th {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+/* Home */
+.home-container h1 {
+  color: black;
+}
+
+.home-container h2 {
+  color: black;
+}
+
+/* Fields */
+.reservation-field-label {
+  font-family: "Inter";
+  color: #00a4ef;
+}
+
+.reservation-field-value {
+  font-family: "Inter";
+  color: black;
+}
+
+.ant-collapse-header {
+  font-family: "Inter";
+  color: #00a4ef !important;
+}
+
+/* App logo */
+@media only screen and (max-width: 770px) {
+  .app-logo {
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .app-logo-normal {
+    display: none;
+  }
+
+  .app-logo-small {
+    display: block;
+  }
+
+  .ant-menu {
+    font-size: 13px !important;
+    padding-left: 0px;
+  }
+
+  .ant-layout-header .right button {
+    width: 100px;
+    font-size: 12px;
+  }
+}
+
+/* Dividers */
+
+.ant-divider-horizontal.ant-divider-with-text {
+  color: black !important;
+}
+
+.ant-divider-horizontal {
+  border-top-color: black !important;
+}
+
+/* Menus */
+.ant-menu-horizontal > .ant-menu-item a {
+  color: #200b47 !important;
+}
+
+/* Misc */
+.ant-btn-danger {
+  border-color: #ff424f !important;
+}
+
+.ant-btn-danger[disabled],
+.ant-btn-danger[disabled]:hover,
+.ant-btn-danger[disabled]:focus,
+.ant-btn-danger[disabled]:active {
+  border-color: #d9d9d9 !important;
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::before {
+  display: none !important;
+}
+
+.ant-picker-suffix,
+.ant-input-suffix,
+.ant-select-arrow,
+.ant-upload-list-item-card-actions .anticon,
+.ant-input-password-icon.anticon {
+  color: #00a4ef !important;
+}
+
+.ant-result-icon > .anticon {
+  color: #00a4ef !important;
+}
+
+/* Check-in state */
+.check-in-state button {
+  border: 2px solid #00a4ef;
+  width: 170px;
+}

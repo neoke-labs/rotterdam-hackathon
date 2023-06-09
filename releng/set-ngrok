@@ -1,0 +1,10 @@
+#!/bin/sh
+
+NGROK_URL=`curl -s http://127.0.0.1:4040/api/tunnels | grep -P "https://.*?ngrok-free.app" -oh`
+FIREBASE_PROJECT=rotterdam-hackathon
+FIREBASE_REGION=us-central1
+
+if [ ! -z "$NGROK_URL" ]
+then
+    sed -i -e "s|WEBHOOK_BASE=.*|WEBHOOK_BASE=$NGROK_URL/$FIREBASE_PROJECT/$FIREBASE_REGION|g" functions/.env.local
+fi
