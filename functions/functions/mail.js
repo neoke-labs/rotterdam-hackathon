@@ -85,6 +85,7 @@ const createArubaVerifiedTravellerCredential = async (
     <br /><br />
     With it, we expect you can say goodbye to long queues and endless forms while exploring Aruba.
     ${instructions}
+    <br /> <br />
     ${footer}`;
 
   const html = is_agency ? agency_mail : user_mail;
